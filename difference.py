@@ -1,5 +1,5 @@
 class Difference:
-    def _init_(self, x, y, radius, diff_type):
+    def __init__(self, x, y, radius, diff_type):
         self.x = x
         self.y = y
         self.radius = radius
